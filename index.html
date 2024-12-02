@@ -5,12 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capital IT Partners LLC</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        h1 { color: #0078D7; }
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #0078D7;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        /* Section */
+        section {
+            max-width: 800px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section p {
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer a {
+            color: #0078D7;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Capital IT Partners LLC</h1>
-    <p>Your trusted partner in IT consulting solutions.</p>
+    <header>
+        <h1>Capital IT Partners LLC</h1>
+    </header>
+    <section>
+        <p>Welcome to Capital IT Partners LLC, your trusted partner in IT consulting solutions.</p>
+        <p>We specialize in empowering businesses with tailored technology strategies to achieve their goals.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Capital IT Partners LLC | <a href="mailto:contact@capitalitpartners.com">Contact Us</a></p>
+    </footer>
 </body>
 </html>
