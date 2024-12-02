@@ -2,86 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capital IT Partners LLC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Internal CSS for styling -->
     <style>
-        /* General Reset */
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Body Styling */
-        body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #333;
-            background-color: #f9f9f9;
-            line-height: 1.6;
+            background-color: #fff;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
             text-align: center;
+            padding: 0 20px;
         }
-
-        /* Header */
-        header {
-            background-color: #0078D7;
-            color: #fff;
-            padding: 20px;
-            width: 100%;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin: 0;
         }
-
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+        .tagline {
+            font-size: 1.5em;
+            font-weight: 300;
+            margin: 0.5em 0 1.5em 0;
         }
-
-        /* Section */
-        section {
-            max-width: 800px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        .contact {
+            font-size: 1em;
+            font-weight: 400;
         }
-
-        section p {
-            font-size: 1.2em;
-            margin-top: 15px;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #666;
-        }
-
-        footer a {
-            color: #0078D7;
+        a {
+            color: inherit;
             text-decoration: none;
         }
-
-        footer a:hover {
-            text-decoration: underline;
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .tagline {
+                font-size: 1.2em;
+            }
+            .contact {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Capital IT Partners LLC</h1>
-    </header>
-    <section>
-        <p>Welcome to Capital IT Partners LLC, your trusted partner in IT consulting solutions.</p>
-        <p>We specialize in empowering businesses with tailored technology strategies to achieve their goals.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Capital IT Partners LLC | <a href="mailto:contact@capitalitpartnersllc.com">Contact Us</a></p>
-    </footer>
+        <p class="tagline">Your Trusted Partner in Technology Solutions</p>
+        <p class="contact">Contact us at <a href="mailto:contact@capitalitpartnersllc.com">contact@capitalitpartnersllc.com</a></p>
+    </div>
 </body>
 </html>
